@@ -14,7 +14,7 @@ img:hover{
     -ms-transform: scale(2.2);
     transform: scale(1.4);
     transition: 1s ease;
-    border: 5px solid gold;
+    /* border: 2px solid gold; */
     border-radius: 10px;
     cursor: pointer;
 }
@@ -153,14 +153,14 @@ span{
 .content2-1{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    border: 1px solid blue;   
+    /* border: 1px solid blue;    */
     border-radius: 3px;
 }
 .content2-img{
     padding: 5%;
     margin: auto;
-    border: 1px solid rgb(30, 150, 194);
-    background-color: gainsboro;
+    /* border: 1px solid rgb(30, 150, 194); */
+    background-color: cornsilk;
 }
 .content3{
     margin-left: 10%;
@@ -193,6 +193,7 @@ span{
     column-gap: 3%;
     height: 50vh;
     margin-bottom: 3%;
+    margin-top: 3%;
 }
 .content4-1{
     display: grid;
@@ -201,11 +202,13 @@ span{
 }
 .content4-1-0{
     border-bottom: 4px solid burlywood;
+    font-size: x-large;
+    color: crimson;
 }
 .content4-1-1{
     display: grid;
     grid-template-columns: auto auto;
-    border: 1px solid burlywood;
+    /* border: 1px solid burlywood; */
     border-radius: 10px;
 }
 .content4-img{
@@ -216,11 +219,13 @@ span{
     margin: 1% 10% 1% 31%;
 }
 .content5-1{
-    border-bottom: 2px solid burlywood;
+    border-bottom: 4px solid burlywood;
+    font-size: x-large;
+    color: crimson;
 }
 .content5-2{
     padding: 2%;
-    border: 2px solid burlywood;
+    /* border: 2px solid burlywood; */
     border-radius: 10px;
     display: grid;
     grid-template-columns: 40% 60%;
@@ -251,7 +256,7 @@ span{
 .content5-2-6{
     margin: 2% 0% 2% 0%;
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 2%;
     border-radius: 4px;
 }
@@ -276,7 +281,7 @@ span{
 }
 .content5-2-5-8-1{
     padding: 2px;
-    border: 1px solid blueviolet;
+    /* border: 1px solid blueviolet; */
     background-color: aliceblue;
     border-radius: 5px;
     display: flex;
@@ -310,8 +315,10 @@ span{
     grid-template-rows: auto auto;
 }
 .content7-1{
-    border-bottom: 2px solid burlywood;
+    border-bottom: 3px solid burlywood;
     margin-top: 2%;
+    font-size: x-large;
+    color: crimson;
 }
 .content7-2-0{
    display: grid;
@@ -329,7 +336,7 @@ span{
     height: 35vh;
     display: grid;
     grid-template-rows: 40% 60%;
-    border: 2px solid burlywood;
+    /* border: 2px solid burlywood; */
     border-radius: 10px;
 }
 .content7-img{
@@ -365,16 +372,16 @@ span{
     border-bottom: 3px solid burlywood;
     margin: 2% 4% 3% 2%;
     padding-left: 2%;
-    font-size: large;
-    font-weight: bold;
+    font-size: x-large;
+    color: rgb(4, 4, 83);
 }
 .content8-1-2{
     margin: 2% 2% auto 1%; 
-    border: 3px solid burlywood;
+    /* border: 3px solid burlywood; */
     border-radius: 15px;
 }
 .content8-img{
- border: 5px solid burlywood;
+ /* border: 5px solid burlywood; */
  border-radius: 50%;
  height: 50%;
  width: 70%;
@@ -416,11 +423,13 @@ p{
     display: grid;
     grid-template-rows: auto auto auto auto auto;
     row-gap: 20px;
-    border: 4px solid burlywood;
+    /* border: 4px solid burlywood; */
     border-radius: 10px;
 }
 .content8-3-1{
     border-bottom: 4px solid burlywood;
+    font-size: x-large;
+    color: rgb(4, 4, 83);
 }
 .content8-3-2-1{
     display: grid;
@@ -549,7 +558,7 @@ h4{
         text-align: center;
     }
     .header2-2-450{
-        width: 90%;
+        width: 93%;
     margin-left: 5%;
     margin-top: 1%;
     border: 2px solid black;
@@ -560,7 +569,7 @@ h4{
     opacity: 0.3;
     }
     .input450{
-        width: 100%;
+        width: 98%;
     }
     .header-copy-450{
         display: grid;
@@ -591,7 +600,7 @@ h4{
         width: 90%;
         display: grid;
         grid-template-columns: auto auto auto;
-        border: 3px solid burlywood;   
+        /* border: 3px solid burlywood;    */
         border-radius: 5px;
     }
     .content2-img-450{
@@ -635,7 +644,7 @@ h4{
     height: 21vh;
     display: grid;
     grid-template-columns: auto auto;
-    border: 1px solid burlywood;
+    /* border: 1px solid burlywood; */
     border-radius: 10px;
     }
     .content4-2-450{
@@ -659,7 +668,7 @@ h4{
     .content5-2-6-450{
     margin: 2% 0% 2% 0%;
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 3%;
     border-radius: 10px;
     }
@@ -684,7 +693,7 @@ h4{
         height: 33vh;
         display: grid;
         grid-template-rows: 60% 40%;
-        border: 2px solid burlywood;
+        /* border: 2px solid burlywood; */
         border-radius: 10px;
     }
     .content7-2-1-900{
@@ -721,7 +730,7 @@ h4{
         }
         .content8-img-900{
             display: flex;
-            border: 5px solid burlywood;
+            /* border: 5px solid burlywood; */
             border-radius: 50%;
             height: 10%;
             width: 13%;
@@ -773,6 +782,8 @@ h4{
         .content8-3-1-900{
             display: flex;
             margin: 2% 2% 2% 2%;
+            font-size: x-large;
+            color: rgb(4, 4, 83);
             border-bottom: 4px solid burlywood;
         }
         .content8-3-2-1-450{
@@ -788,7 +799,7 @@ h4{
             display: grid;
             grid-template-rows: auto auto auto auto auto;
             row-gap: 3%;
-            border: 2px solid burlywood;
+            /* border: 2px solid burlywood; */
             border-radius: 10px;
         }
         .content9-900{
@@ -960,7 +971,7 @@ h4{
         width: 48vw;
         display: grid;
         grid-template-columns: auto auto auto;
-        border: 5px solid burlywood;   
+        /* border: 5px solid burlywood;    */
         border-radius: 5px;
     }
     .content2-1-1-900{
@@ -988,7 +999,7 @@ h4{
     .content4-1-1-900{
     display: grid;
     grid-template-columns: auto auto;
-    border: 1px solid burlywood;
+    /* border: 1px solid burlywood; */
     border-radius: 10px;
     margin-top: 7%;
     }
@@ -1016,7 +1027,7 @@ h4{
         height: 33vh;
         display: grid;
         grid-template-rows: 60% 40%;
-        border: 2px solid burlywood;
+        /* border: 2px solid burlywood; */
         border-radius: 10px;
     }
     .content7-2-1-900{
@@ -1054,7 +1065,7 @@ h4{
     }
     .content8-img-900{
         display: flex;
-        border: 5px solid burlywood;
+        /* border: 5px solid burlywood; */
         border-radius: 50%;
         height: 10%;
         width: 13%;
@@ -1107,6 +1118,8 @@ h4{
     .content8-3-1-900{
         display: flex;
         margin: 2% 2% 2% 2%;
+        font-size: x-large;
+        color: rgb(4, 4, 83);
         border-bottom: 4px solid burlywood;
     }
     .content8-3-2-1-900{
@@ -1120,7 +1133,7 @@ h4{
         padding-top: 2%;
         display: flex;
         flex-wrap: wrap;
-        border: 2px solid burlywood;
+        /* border: 2px solid burlywood; */
         border-radius: 10px;
     }
     .content9-900{
